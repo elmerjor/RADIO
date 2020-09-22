@@ -1,0 +1,19 @@
+#lema{
+    text-align: center;
+    background: linear-gradient(
+        rgb(143, 33, 0),
+        rgb(172, 119, 5)
+    );
+}
+#lema .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#lema .contenedor p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgba(87, 238, 0, 0.829);
+    font-size: 50px;
+}

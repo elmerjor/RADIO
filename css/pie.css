@@ -1,0 +1,35 @@
+footer .contenedor{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: linear-gradient(
+        rgb(143, 33, 0),
+        rgb(172, 119, 5)
+    );
+}
+.copy{
+    color: #fff;
+    font-size: 30px;
+
+}
+.sociales{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.sociales a{
+    color: #ffff;
+    text-decoration: none;
+
+}
+@media(min-width: 720px){
+    .sociales{
+        width: auto;
+    }
+    footer .contenedor{
+        justify-content: space-between;
+    }
+} 
